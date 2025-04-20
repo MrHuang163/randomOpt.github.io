@@ -1,3 +1,72 @@
-<html>
-  <h1>hello world</h1>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>彩虹六号随机装备生成器</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 0;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #4CAF50;
+        }
+        .result h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        .result p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>彩虹六号随机装备生成器</h1>
+        <button id="generateBtn">生成随机装备</button>
+        <div id="result" class="result" style="display: none;">
+            <h3>你的随机装备:</h3>
+            <p><strong>干员:</strong> <span id="operator"></span></p>
+            <p><strong>武器:</strong> <span id="weapon"></span></p>
+            <p><strong>握把:</strong> <span id="grip"></span></p>
+            <p><strong>枪口:</strong> <span id="muzzle"></span></p>
+            <p><strong>瞄具:</strong> <span id="quasiMirror"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
