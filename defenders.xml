@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<operator-list faction="defender">
+    <operator name="Jäger">
+        <weapon-list>
+            <weapon name="416-C">
+                <grip-list>
+                    <grip name="垂直握把"/>
+                </grip-list>
+                <muzzle-list>
+                    <muzzle name="补偿器"/>
+                    <muzzle name="制退器"/>
+                </muzzle-list>
+                <Quasi-mirror-list>
+                    <Quasi-mirror name="全息瞄准镜"/>
+                    <Quasi-mirror name="红点瞄准镜"/>
+                </Quasi-mirror-list>
+            </weapon>
+        </weapon-list>
+    </operator>
+    <operator name="Bandit">
+        <weapon-list>
+            <weapon name="MP7">
+                <grip-list>
+                    <grip name="垂直握把"/>
+                </grip-list>
+                <muzzle-list>
+                    <muzzle name="补偿器"/>
+                    <muzzle name="消焰器"/>
+                </muzzle-list>
+                <Quasi-mirror-list>
+                    <Quasi-mirror name="红点瞄准镜"/>
+                    <Quasi-mirror name="全息瞄准镜"/>
+                </Quasi-mirror-list>
+            </weapon>
+            <weapon name="M870">
+                <grip-list>
+                    <grip name="无握把"/>
+                </grip-list>
+                <muzzle-list>
+                    <muzzle name="无枪口"/>
+                </muzzle-list>
+                <Quasi-mirror-list>
+                    <Quasi-mirror name="无瞄具"/>
+                </Quasi-mirror-list>
+            </weapon>
+        </weapon-list>
+    </operator>
+</operator-list>
