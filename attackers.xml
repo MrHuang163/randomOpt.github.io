@@ -6,56 +6,71 @@
                 <grip-list>
                     <grip name="垂直握把"/>
                     <grip name="水平握把"/>
+                    <grip name="转角握把"/>
                 </grip-list>
                 <muzzle-list>
                     <muzzle name="消焰器"/>
                     <muzzle name="补偿器"/>
+                    <muzzle name="消音器"/>
                 </muzzle-list>
                 <Quasi-mirror-list>
                     <Quasi-mirror name="放大瞄准镜"/>
                     <Quasi-mirror name="普通瞄准镜"/>
+                    <Quasi-mirror name="无瞄具"/>
                 </Quasi-mirror-list>
             </weapon>
             <weapon name="G36C">
                 <grip-list>
                     <grip name="垂直握把"/>
                     <grip name="水平握把"/>
+                    <grip name="转角握把"/>
                 </grip-list>
                 <muzzle-list>
                     <muzzle name="消焰器"/>
                     <muzzle name="补偿器"/>
+                    <muzzle name="消音器"/>
                 </muzzle-list>
                 <Quasi-mirror-list>
                     <Quasi-mirror name="放大瞄准镜"/>
                     <Quasi-mirror name="普通瞄准镜"/>
+                    <Quasi-mirror name="无瞄具"/>
                 </Quasi-mirror-list>
             </weapon>
         </weapon-list>
     </operator>
     <operator name="Thermite">
         <weapon-list>
-            <weapon name="556xi">
+            <weapon name="556XI">
                 <grip-list>
                     <grip name="垂直握把"/>
                     <grip name="水平握把"/>
+                    <grip name="转角握把"/>
                 </grip-list>
                 <muzzle-list>
                     <muzzle name="消焰器"/>
                     <muzzle name="补偿器"/>
+                    <muzzle name="消音器"/>
                 </muzzle-list>
                 <Quasi-mirror-list>
                     <Quasi-mirror name="放大瞄准镜"/>
                     <Quasi-mirror name="普通瞄准镜"/>
+                    <Quasi-mirror name="无瞄具"/>
                 </Quasi-mirror-list>
             </weapon>
-            <weapon name="M1014">
+            <weapon name="G36C">
                 <grip-list>
-                    <grip name="无握把"/>
+                    <grip name="垂直握把"/>
+                    <grip name="水平握把"/>
+                    <grip name="转角握把"/>
                 </grip-list>
                 <muzzle-list>
-                    <muzzle name="无枪口"/>
+                    <muzzle name="消焰器"/>
+                    <muzzle name="补偿器"/>
+                    <muzzle name="消音器"/>
                 </muzzle-list>
                 <Quasi-mirror-list>
+                    <Quasi-mirror name="放大瞄准镜"/>
+                    <Quasi-mirror name="普通瞄准镜"/>
                     <Quasi-mirror name="无瞄具"/>
                 </Quasi-mirror-list>
             </weapon>
