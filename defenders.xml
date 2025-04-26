@@ -1,35 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <operator-list faction="defender">
-    <operator name="Jäger">
+    <operator name="Sentry">
         <weapon-list>
-            <weapon name="416-C">
+            <weapon name="COMMANDO 9">
                 <grip-list>
                     <grip name="垂直握把"/>
+                    <grip name="水平握把"/>
+                    <grip name="拐角握把"/>
                 </grip-list>
                 <muzzle-list>
+                    <muzzle name="消炎器"/>
                     <muzzle name="补偿器"/>
                     <muzzle name="制退器"/>
+                    <muzzle name="消音器"/>
+                    <muzzle name="延长枪管"/>
+                    <muzzle name="无枪口"/>
                 </muzzle-list>
                 <Quasi-mirror-list>
-                    <Quasi-mirror name="全息瞄准镜"/>
-                    <Quasi-mirror name="红点瞄准镜"/>
-                </Quasi-mirror-list>
-            </weapon>
-        </weapon-list>
-    </operator>
-    <operator name="Bandit">
-        <weapon-list>
-            <weapon name="MP7">
-                <grip-list>
-                    <grip name="垂直握把"/>
-                </grip-list>
-                <muzzle-list>
-                    <muzzle name="补偿器"/>
-                    <muzzle name="消焰器"/>
-                </muzzle-list>
-                <Quasi-mirror-list>
-                    <Quasi-mirror name="红点瞄准镜"/>
-                    <Quasi-mirror name="全息瞄准镜"/>
+                    <Quasi-mirror name="普通瞄准镜"/>
+                    <Quasi-mirror name="无瞄具"/>
                 </Quasi-mirror-list>
             </weapon>
             <weapon name="M870">
@@ -40,6 +28,396 @@
                     <muzzle name="无枪口"/>
                 </muzzle-list>
                 <Quasi-mirror-list>
+                    <Quasi-mirror name="普通瞄准镜"/>
+                    <Quasi-mirror name="无瞄具"/>
+                </Quasi-mirror-list>
+            </weapon>
+        </weapon-list>
+    </operator>
+    <operator name="Smoke">
+        <weapon-list>
+            <weapon name="FMG-9">
+                <grip-list>
+                    <grip name="无握把"/>
+                </grip-list>
+                <muzzle-list>
+                    <muzzle name="消炎器"/>
+                    <muzzle name="补偿器"/>
+                    <muzzle name="制退器"/>
+                    <muzzle name="消音器"/>
+                    <muzzle name="延长枪管"/>
+                    <muzzle name="无枪口"/>
+                </muzzle-list>
+                <Quasi-mirror-list>
+                    <Quasi-mirror name="普通瞄准镜"/>
+                    <Quasi-mirror name="无瞄具"/>
+                </Quasi-mirror-list>
+            </weapon>
+            <weapon name="M590A1">
+                <grip-list>
+                    <grip name="无握把"/>
+                </grip-list>
+                <muzzle-list>
+                    <muzzle name="无枪口"/>
+                </muzzle-list>
+                <Quasi-mirror-list>
+                    <Quasi-mirror name="普通瞄准镜"/>
+                    <Quasi-mirror name="无瞄具"/>
+                </Quasi-mirror-list>
+            </weapon>
+        </weapon-list>
+    </operator>
+    <operator name="Mute">
+        <weapon-list>
+            <weapon name="MP5K">
+                <grip-list>
+                    <grip name="无握把"/>
+                </grip-list>
+                <muzzle-list>
+                    <muzzle name="消炎器"/>
+                    <muzzle name="补偿器"/>
+                    <muzzle name="制退器"/>
+                    <muzzle name="消音器"/>
+                    <muzzle name="延长枪管"/>
+                    <muzzle name="无枪口"/>
+                </muzzle-list>
+                <Quasi-mirror-list>
+                    <Quasi-mirror name="普通瞄准镜"/>
+                    <Quasi-mirror name="无瞄具"/>
+                </Quasi-mirror-list>
+            </weapon>
+            <weapon name="M590A1">
+                <grip-list>
+                    <grip name="无握把"/>
+                </grip-list>
+                <muzzle-list>
+                    <muzzle name="无枪口"/>
+                </muzzle-list>
+                <Quasi-mirror-list>
+                    <Quasi-mirror name="普通瞄准镜"/>
+                    <Quasi-mirror name="无瞄具"/>
+                </Quasi-mirror-list>
+            </weapon>
+        </weapon-list>
+    </operator>
+    <operator name="Castle">
+        <weapon-list>
+            <weapon name="UMP45">
+                <grip-list>
+                    <grip name="垂直握把"/>
+                    <grip name="水平握把"/>
+                    <grip name="拐角握把"/>
+                </grip-list>
+                <muzzle-list>
+                    <muzzle name="消炎器"/>
+                    <muzzle name="补偿器"/>
+                    <muzzle name="制退器"/>
+                    <muzzle name="消音器"/>
+                    <muzzle name="延长枪管"/>
+                    <muzzle name="无枪口"/>
+                </muzzle-list>
+                <Quasi-mirror-list>
+                    <Quasi-mirror name="放大瞄准镜"/>
+                    <Quasi-mirror name="普通瞄准镜"/>
+                    <Quasi-mirror name="无瞄具"/>
+                </Quasi-mirror-list>
+            </weapon>
+            <weapon name="M1014">
+                <grip-list>
+                    <grip name="无握把"/>
+                </grip-list>
+                <muzzle-list>
+                    <muzzle name="无枪口"/>
+                </muzzle-list>
+                <Quasi-mirror-list>
+                    <Quasi-mirror name="普通瞄准镜"/>
+                    <Quasi-mirror name="无瞄具"/>
+                </Quasi-mirror-list>
+            </weapon>
+        </weapon-list>
+    </operator>
+    <operator name="Pulse">
+        <weapon-list>
+            <weapon name="UMP45">
+                <grip-list>
+                    <grip name="垂直握把"/>
+                    <grip name="水平握把"/>
+                    <grip name="拐角握把"/>
+                </grip-list>
+                <muzzle-list>
+                    <muzzle name="消炎器"/>
+                    <muzzle name="补偿器"/>
+                    <muzzle name="制退器"/>
+                    <muzzle name="消音器"/>
+                    <muzzle name="延长枪管"/>
+                    <muzzle name="无枪口"/>
+                </muzzle-list>
+                <Quasi-mirror-list>
+                    <Quasi-mirror name="普通瞄准镜"/>
+                    <Quasi-mirror name="无瞄具"/>
+                </Quasi-mirror-list>
+            </weapon>
+            <weapon name="M1014">
+                <grip-list>
+                    <grip name="无握把"/>
+                </grip-list>
+                <muzzle-list>
+                    <muzzle name="无枪口"/>
+                </muzzle-list>
+                <Quasi-mirror-list>
+                    <Quasi-mirror name="普通瞄准镜"/>
+                    <Quasi-mirror name="无瞄具"/>
+                </Quasi-mirror-list>
+            </weapon>
+        </weapon-list>
+    </operator>
+    <operator name="Doc">
+        <weapon-list>
+            <weapon name="MP5">
+                <grip-list>
+                    <grip name="垂直握把"/>
+                    <grip name="水平握把"/>
+                    <grip name="拐角握把"/>
+                </grip-list>
+                <muzzle-list>
+                    <muzzle name="消炎器"/>
+                    <muzzle name="补偿器"/>
+                    <muzzle name="制退器"/>
+                    <muzzle name="消音器"/>
+                    <muzzle name="延长枪管"/>
+                    <muzzle name="无枪口"/>
+                </muzzle-list>
+                <Quasi-mirror-list>
+                    <Quasi-mirror name="放大瞄准镜"/>
+                    <Quasi-mirror name="普通瞄准镜"/>
+                    <Quasi-mirror name="无瞄具"/>
+                </Quasi-mirror-list>
+            </weapon>
+            <weapon name="P90">
+                <grip-list>
+                    <grip name="无握把"/>
+                </grip-list>
+                <muzzle-list>
+                    <muzzle name="消炎器"/>
+                    <muzzle name="补偿器"/>
+                    <muzzle name="制退器"/>
+                    <muzzle name="消音器"/>
+                    <muzzle name="延长枪管"/>
+                    <muzzle name="无枪口"/>
+                </muzzle-list>
+                <Quasi-mirror-list>
+                    <Quasi-mirror name="放大瞄准镜"/>
+                    <Quasi-mirror name="普通瞄准镜"/>
+                    <Quasi-mirror name="无瞄具"/>
+                </Quasi-mirror-list>
+            </weapon>
+            <weapon name="SG-CQB">
+                <grip-list>
+                    <grip name="垂直握把"/>
+                    <grip name="水平握把"/>
+                </grip-list>
+                <muzzle-list>
+                    <muzzle name="无枪口"/>
+                </muzzle-list>
+                <Quasi-mirror-list>
+                    <Quasi-mirror name="普通瞄准镜"/>
+                    <Quasi-mirror name="无瞄具"/>
+                </Quasi-mirror-list>
+            </weapon>
+        </weapon-list>
+    </operator>
+    <operator name="Rook">
+        <weapon-list>
+            <weapon name="MP5">
+                <grip-list>
+                    <grip name="垂直握把"/>
+                    <grip name="水平握把"/>
+                    <grip name="拐角握把"/>
+                </grip-list>
+                <muzzle-list>
+                    <muzzle name="消炎器"/>
+                    <muzzle name="补偿器"/>
+                    <muzzle name="制退器"/>
+                    <muzzle name="消音器"/>
+                    <muzzle name="延长枪管"/>
+                    <muzzle name="无枪口"/>
+                </muzzle-list>
+                <Quasi-mirror-list>
+                    <Quasi-mirror name="放大瞄准镜"/>
+                    <Quasi-mirror name="普通瞄准镜"/>
+                    <Quasi-mirror name="无瞄具"/>
+                </Quasi-mirror-list>
+            </weapon>
+            <weapon name="P90">
+                <grip-list>
+                    <grip name="无握把"/>
+                </grip-list>
+                <muzzle-list>
+                    <muzzle name="消炎器"/>
+                    <muzzle name="补偿器"/>
+                    <muzzle name="制退器"/>
+                    <muzzle name="消音器"/>
+                    <muzzle name="延长枪管"/>
+                    <muzzle name="无枪口"/>
+                </muzzle-list>
+                <Quasi-mirror-list>
+                    <Quasi-mirror name="放大瞄准镜"/>
+                    <Quasi-mirror name="普通瞄准镜"/>
+                    <Quasi-mirror name="无瞄具"/>
+                </Quasi-mirror-list>
+            </weapon>
+            <weapon name="SG-CQB">
+                <grip-list>
+                    <grip name="垂直握把"/>
+                    <grip name="水平握把"/>
+                </grip-list>
+                <muzzle-list>
+                    <muzzle name="无枪口"/>
+                </muzzle-list>
+                <Quasi-mirror-list>
+                    <Quasi-mirror name="普通瞄准镜"/>
+                    <Quasi-mirror name="无瞄具"/>
+                </Quasi-mirror-list>
+            </weapon>
+        </weapon-list>
+    </operator>
+    <operator name="Kapkan">
+        <weapon-list>
+            <weapon name="9x19VSN">
+                <grip-list>
+                    <grip name="垂直握把"/>
+                    <grip name="水平握把"/>
+                    <grip name="拐角握把"/>
+                </grip-list>
+                <muzzle-list>
+                    <muzzle name="消炎器"/>
+                    <muzzle name="补偿器"/>
+                    <muzzle name="制退器"/>
+                    <muzzle name="消音器"/>
+                    <muzzle name="延长枪管"/>
+                    <muzzle name="无枪口"/>
+                </muzzle-list>
+                <Quasi-mirror-list>
+                    <Quasi-mirror name="普通瞄准镜"/>
+                    <Quasi-mirror name="无瞄具"/>
+                </Quasi-mirror-list>
+            </weapon>
+            <weapon name="SASG-12">
+                <grip-list>
+                    <grip name="垂直握把"/>
+                    <grip name="拐角握把"/>
+                    <grip name="水平握把"/>
+                </grip-list>
+                <muzzle-list>
+                    <muzzle name="消音器"/>
+                    <muzzle name="无枪口"/>
+                </muzzle-list>
+                <Quasi-mirror-list>
+                    <Quasi-mirror name="普通瞄准镜"/>
+                    <Quasi-mirror name="无瞄具"/>
+                </Quasi-mirror-list>
+            </weapon>
+        </weapon-list>
+    </operator>
+    <operator name="Tachanka">
+        <weapon-list>
+            <weapon name="9x19VSN">
+                <grip-list>
+                    <grip name="垂直握把"/>
+                    <grip name="水平握把"/>
+                    <grip name="拐角握把"/>
+                </grip-list>
+                <muzzle-list>
+                    <muzzle name="消炎器"/>
+                    <muzzle name="补偿器"/>
+                    <muzzle name="制退器"/>
+                    <muzzle name="消音器"/>
+                    <muzzle name="延长枪管"/>
+                    <muzzle name="无枪口"/>
+                </muzzle-list>
+                <Quasi-mirror-list>
+                    <Quasi-mirror name="放大瞄准镜"/>
+                    <Quasi-mirror name="普通瞄准镜"/>
+                    <Quasi-mirror name="无瞄具"/>
+                </Quasi-mirror-list>
+            </weapon>
+            <weapon name="DP27">
+                <grip-list>
+                    <grip name="无握把"/>
+                </grip-list>
+                <muzzle-list>
+                    <muzzle name="无枪口"/>
+                </muzzle-list>
+                <Quasi-mirror-list>
+                    <Quasi-mirror name="普通瞄准镜"/>
+                    <Quasi-mirror name="无瞄具"/>
+                </Quasi-mirror-list>
+            </weapon>
+        </weapon-list>
+    </operator>
+    <operator name="Jäger">
+        <weapon-list>
+            <weapon name="416-C">
+                <grip-list>
+                    <grip name="垂直握把"/>
+                    <grip name="水平握把"/>
+                    <grip name="拐角握把"/>
+                </grip-list>
+                <muzzle-list>
+                    <muzzle name="消炎器"/>
+                    <muzzle name="补偿器"/>
+                    <muzzle name="制退器"/>
+                    <muzzle name="消音器"/>
+                    <muzzle name="延长枪管"/>
+                    <muzzle name="无枪口"/>
+                </muzzle-list>
+                <Quasi-mirror-list>
+                    <Quasi-mirror name="普通瞄准镜"/>
+                    <Quasi-mirror name="无瞄具"/>
+                </Quasi-mirror-list>
+            </weapon>
+            <weapon name="M870">
+                <grip-list>
+                    <grip name="无握把"/>
+                </grip-list>
+                <muzzle-list>
+                    <muzzle name="无枪口"/>
+                </muzzle-list>
+                <Quasi-mirror-list>
+                    <Quasi-mirror name="普通瞄准镜"/>
+                    <Quasi-mirror name="无瞄具"/>
+                </Quasi-mirror-list>
+            </weapon>
+        </weapon-list>
+    </operator>
+    <operator name="Bandit">
+        <weapon-list>
+            <weapon name="MP7">
+                <grip-list>
+                    <grip name="无握把"/>
+                </grip-list>
+                <muzzle-list>
+                    <muzzle name="消炎器"/>
+                    <muzzle name="补偿器"/>
+                    <muzzle name="制退器"/>
+                    <muzzle name="消音器"/>
+                    <muzzle name="延长枪管"/>
+                    <muzzle name="无枪口"/>
+                </muzzle-list>
+                <Quasi-mirror-list>
+                    <Quasi-mirror name="普通瞄准镜"/>
+                    <Quasi-mirror name="无瞄具"/>
+                </Quasi-mirror-list>
+            </weapon>
+            <weapon name="M870">
+                <grip-list>
+                    <grip name="无握把"/>
+                </grip-list>
+                <muzzle-list>
+                    <muzzle name="无枪口"/>
+                </muzzle-list>
+                <Quasi-mirror-list>
+                    <Quasi-mirror name="普通瞄准镜"/>
                     <Quasi-mirror name="无瞄具"/>
                 </Quasi-mirror-list>
             </weapon>
